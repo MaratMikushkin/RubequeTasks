@@ -1,7 +1,7 @@
 require 'minitest/autorun'
 
 class TheTruth
-  def value
+  def return_true
     true
   end
 end
@@ -10,7 +10,8 @@ class TestTheTruth < MiniTest::Unit::TestCase
   def setup
     @register = TheTruth.new
   end
-  def test_class
-    assert_equal true, @register.value
+
+  def test_
+    assert_equal true, @register.return_true
   end
 end
