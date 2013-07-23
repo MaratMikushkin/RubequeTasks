@@ -1,8 +1,9 @@
 require 'minitest/autorun'
 
 class TemperatureRobot
-  def temperature_bot(temperature)
-    if 18 <= temperature && temperature <= 21
+  def temperature_bot(temp)
+    case temp
+    when 18 <= temp && temp <= 21
       "I like this temperature"
     else
       "This is uncomfortable for me"
