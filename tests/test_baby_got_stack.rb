@@ -1,4 +1,4 @@
-require './lib/baby_got_stack.rb'
+require '../lib/baby_got_stack.rb'
 require 'minitest/autorun'
 
 class TestQueue < MiniTest::Unit::TestCase

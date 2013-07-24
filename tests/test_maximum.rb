@@ -1,4 +1,4 @@
-require './lib/maximum.rb'
+require '../lib/maximum.rb'
 require 'minitest/autorun'
 
 class TestReverse < MiniTest::Unit::TestCase

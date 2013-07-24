@@ -1,4 +1,4 @@
-require './lib/hello_world.rb'
+require '../lib/hello_world.rb'
 require 'minitest/autorun'
 
 class TestUpcase < MiniTest::Unit::TestCase

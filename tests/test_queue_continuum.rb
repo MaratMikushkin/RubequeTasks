@@ -1,4 +1,4 @@
-require './lib/queue_continuum.rb'
+require '../lib/queue_continuum.rb'
 require 'minitest/autorun'
 
 class TestQueue < MiniTest::Unit::TestCase

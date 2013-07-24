@@ -1,4 +1,4 @@
-require './lib/fizz_buzz.rb'
+require '../lib/fizz_buzz.rb'
 require 'minitest/autorun'
 
 class TestFizzBuzz < MiniTest::Unit::TestCase

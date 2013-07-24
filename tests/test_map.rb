@@ -1,4 +1,4 @@
-require './lib/map.rb'
+require '../lib/map.rb'
 require 'minitest/autorun'
 
 class TestMap < MiniTest::Unit::TestCase
