@@ -1,4 +1,4 @@
-require '../lib/baby_got_stack.rb'
+require '../lib/key_for_min_value.rb'
 require 'minitest/autorun'
 
 class TestKeyForMinValue < MiniTest::Unit::TestCase
