@@ -1,5 +1,4 @@
-require '../lib/each_with_object.rb'
-require 'minitest/autorun'
+require './test_helper.rb'
 
 class TestEachWithObject < MiniTest::Unit::TestCase
   def setup

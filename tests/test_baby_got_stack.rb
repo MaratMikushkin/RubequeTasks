@@ -1,7 +1,6 @@
-require '../lib/baby_got_stack.rb'
-require 'minitest/autorun'
+require './test_helper.rb'
 
-class TestQueue < MiniTest::Unit::TestCase
+class TestStack < MiniTest::Unit::TestCase
   def setup
     @register = Stack.new([5, 6, 7, 8])
   end

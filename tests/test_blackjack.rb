@@ -1,5 +1,4 @@
-require '../lib/blackjack.rb'
-require 'minitest/autorun'
+require './test_helper.rb'
 
 class TestBlackJack < MiniTest::Unit::TestCase
   def setup

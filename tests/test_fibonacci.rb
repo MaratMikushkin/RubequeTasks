@@ -1,5 +1,4 @@
-require '../lib/fibonacci.rb'
-require 'minitest/autorun'
+require './test_helper.rb'
 
 class TestFibonacci < MiniTest::Unit::TestCase
   def setup

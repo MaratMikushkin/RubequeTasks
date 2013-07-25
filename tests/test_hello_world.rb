@@ -1,5 +1,4 @@
-require '../lib/hello_world.rb'
-require 'minitest/autorun'
+require './test_helper.rb'
 
 class TestUpcase < MiniTest::Unit::TestCase
   def setup

@@ -1,5 +1,4 @@
-require '../lib/inject_and_reject.rb'
-require 'minitest/autorun'
+require './test_helper.rb'
 
 class TestIntectAndReject < MiniTest::Unit::TestCase
   def setup

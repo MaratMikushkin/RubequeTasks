@@ -1,5 +1,4 @@
-require '../lib/bigger_element.rb'
-require 'minitest/autorun'
+require './test_helper.rb'
 
 class TestBiggerElement < MiniTest::Unit::TestCase
   def setup

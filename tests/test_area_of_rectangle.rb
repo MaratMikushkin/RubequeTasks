@@ -1,5 +1,4 @@
-require '../lib/area_of_rectangle.rb'
-require 'minitest/autorun'
+require './test_helper.rb'
 
 class TestRectangle < MiniTest::Unit::TestCase
   def setup
